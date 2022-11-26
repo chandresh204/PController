@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="type here"
+                android:textSize="30dp"
+                android:id="@+id/keyboardText"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="32dp" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/sendTextButton"
+                android:text="send"
+                android:background="@drawable/btn_drawable"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/keyboardText"
+                app:layout_constraintEnd_toEndOf="@+id/keyboardText"
+                app:layout_constraintStart_toStartOf="@+id/keyboardText"
+                android:layout_marginTop="8dp" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/sendBackSButton"
+                android:text="BK SPACE"
+                android:background="@drawable/btn_drawable"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/sendTextButton"
+                android:layout_marginTop="32dp" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/sendReturnButton"
+                android:text="ENTER"
+                android:background="@drawable/btn_drawable"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/sendBackSButton"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp" />
+
+        <Button
+                android:text="DELETE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendDelButton"
+                android:background="@drawable/btn_drawable"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sendReturnButton"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="24dp" />
+
+        <Button
+                android:text="ESC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/senESCButton"
+                android:background="@drawable/btn_drawable"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sendTextButton"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="16dp" />
+
+        <Button
+                android:text="TAB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendTABButton"
+                android:background="@drawable/btn_drawable"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/senESCButton"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp" />
+
+        <Button
+                android:text="CTRL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendCTRLButton"
+                android:background="@drawable/btn_drawable"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sendTABButton"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="16dp" />
+
+        <Button
+                android:text="START"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendStartButton"
+                android:background="@drawable/btn_drawable"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sendCTRLButton"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp" />
+
+        <Button
+                android:text="ALT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendALTButton"
+                android:background="@drawable/btn_drawable"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sendDelButton"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp" />
+
+        <Button
+                android:text="SPACE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendSpaceButton"
+                android:background="@drawable/btn_drawable"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sendStartButton"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp" />
+
+        <Button
+                android:text="UNDO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendUndoButton"
+                android:background="@drawable/btn_drawable"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sendALTButton"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

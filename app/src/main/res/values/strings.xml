@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PController</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="wusb_info">Connect any USB input device to your phone using OTG and make them work over wifi</string>
+    <string name="usb_keyboard_info">Tip: Avoid using shortcut keys while working on USB keyboard,
+    You can map your usb game-pad by creating new profile below.</string>
+    <string name="gamepad_welcome_msg">Current we have two different profiles to use. you can create your own custom
+        profile
+    </string>
+    <string name="title_activity_fullscreen_blank">FullscreenActivity</string>
+    <string name="blank_screen_info">Your phone\'s screen should be kept ON all the time while using USB device
+        currently the screen is ON but its blank to save energy. swipe at the top and bottom area of the phone for
+        more options.
+    </string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="search_text">Searching for computer</string>
+</resources>

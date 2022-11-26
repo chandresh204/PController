@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="chad.orionsoft.supportlib1.Controller">
+    <item android:id="@+id/menu_mouse_main"
+          android:title="mouse speed"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/menu_os_main"
+            android:title="select os"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+</menu>

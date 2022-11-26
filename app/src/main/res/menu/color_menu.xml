@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_undo"
+            android:title="undo"/>
+
+    <item android:title="redo"
+          android:id="@+id/menu_redo"/>
+
+    <item android:id="@+id/menu_share"
+          android:title="share"/>
+    <item android:id="@+id/menu_save"
+          android:title="save"/>
+
+    <item android:title="open"
+          android:id="@+id/menu_open"/>
+</menu>

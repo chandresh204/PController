@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chad.orionsoft.pcontroller">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pcontroller"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pcontroller"
+        android:supportsRtl="true"
+        android:theme="@style/DarkTheme">
+        <activity
+            android:name=".BlankScreen"
+            android:theme="@style/DarkTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".GPadProfiles"
+            android:label="Select Profile"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".USBProfileAct" />
+        <activity
+            android:name=".GamepadFullscreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/DarkTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:theme="@style/DarkTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="220dp"
+            android:id="@+id/keyListRecycler"
+            android:layout_height="435dp" />
+
+    <LinearLayout android:layout_width="80dp"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+        <Button android:layout_width="wrap_content"
+                android:id="@+id/click1Btn"
+                android:text="Mouse L"
+                android:textSize="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_in_selection"
+                android:layout_height="30dp"/>
+        <Button android:layout_width="wrap_content"
+                android:id="@+id/click2Btn"
+                android:text="Mouse M"
+                android:textSize="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_in_selection"
+                android:layout_height="30dp"/>
+        <Button android:layout_width="wrap_content"
+                android:id="@+id/click3Btn"
+                android:text="Mouse R"
+                android:textSize="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_in_selection"
+                android:layout_height="30dp"/>
+        <Button android:layout_width="wrap_content"
+                android:id="@+id/click4Btn"
+                android:text="Mouse scrl - up"
+                android:textSize="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_in_selection"
+                android:layout_height="30dp"/>
+        <Button android:layout_width="wrap_content"
+                android:id="@+id/click5Btn"
+                android:textSize="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_in_selection"
+                android:text="Mouse scrl - down"
+                android:layout_height="30dp"/>
+
+        <Button android:layout_width="wrap_content"
+                android:id="@+id/moveUPBtn"
+                android:textSize="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_in_selection"
+                android:text="Mouse move up"
+                android:layout_height="30dp"/>
+
+        <Button android:layout_width="wrap_content"
+                android:id="@+id/moveDownBtn"
+                android:textSize="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_in_selection"
+                android:text="Mouse move down"
+                android:layout_height="30dp"/>
+
+        <Button android:layout_width="wrap_content"
+                android:id="@+id/moveRightBtn"
+                android:textSize="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_in_selection"
+                android:text="Mouse move right"
+                android:layout_height="30dp"/>
+
+        <Button android:layout_width="wrap_content"
+                android:id="@+id/moveLeftBtn"
+                android:textSize="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_in_selection"
+                android:text="Mouse move left"
+                android:layout_height="30dp"/>
+
+        <EditText android:layout_width="wrap_content"
+                  android:inputType="numberDecimal"
+                  android:id="@+id/CustomeKeyCodeEdit"
+                  android:hint="KeyCode"
+                  android:textColor="#FF0"
+                  android:layout_height="wrap_content"/>
+        <Button android:layout_height="30dp"
+                android:layout_width="75dp"
+                android:background="#FF0"
+                android:textColor="#000"
+                android:id="@+id/setCustomeKeyCode"
+                android:text="Set"/>
+    </LinearLayout>
+
+</LinearLayout>
